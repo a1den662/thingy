@@ -1,1 +1,31 @@
 
+body {
+  background-color: yellow;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b, #86a8e7, #7ed6df);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+title, info{
+  color: #ff6f61;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  margin: 20px;
+}
